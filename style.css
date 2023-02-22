@@ -21,14 +21,42 @@
   height: 160px !important;  
 }
 .cardperso{
-  margin: 5%;
+  margin-top: 1rem;
+  margin-bottom: 25rem;
   color: rgba(242,244,246,.9) !important;
-  width: 300px !important;
-  height: 230px !important;
+  width: 400px !important;
+  height: 100% !important;
   background-color: #0f171e !important;
+
+}
+.card{
+  margin-top: 5rem;
+  width: 400px !important;
+  text-align: center;
+  align-items: center;
+  
+}
+.card-text{
+  height: 120px;
 }
 
+col{
+  
+}
 .btn{
   color: rgba(242,244,246,.9) !important;
   border: solid 1px  rgba(242,244,246,.9) !important;
+}
+
+.img-card{
+  margin: 0px;
+  height: 200px !important;
+  width: 400px !important;
+  object-fit: cover !important;
+}
+
+.img-carousel{
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
 }
